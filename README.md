@@ -4,7 +4,7 @@
 
 This repo is the same thing than the official docs:
 - [Cloudflare tunnel docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide)
-But I distilled the things I do the most to save some time
+But I distilled the most common operations for easy access
 
 [Cloudflare daemon installers link](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide#set-up-a-tunnel-locally-cli-setup)
 

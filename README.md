@@ -22,7 +22,11 @@ vi $HOME/.cloudflared/config.yaml # USE CONFIG BELOW
 
 # my-subdomain = CNAME for the tunnel (subdomain.my.domain)
 cloudflared tunnel route dns my-new-tunnel my-subdomain
-cloudflared tunnel run <UUID or NAME> # This can be ran as a service or in the background
+# Run the tunnel in the background, and detach processes:
+cloudflared tunnel run <UUID or NAME>  &
+jobs # Check which job number cloudflared is running on
+disown %1 # If this is a clean server it will normally be the No. 1
+# This can be ran or configured as a service
 
 ```
 
